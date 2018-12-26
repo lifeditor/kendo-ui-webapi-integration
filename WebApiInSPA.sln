@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiUser", "WebApiUser\WebApiUser.csproj", "{831048C2-D136-4A52-B88B-EEF8A2345007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoUIApplication", "KendoUIApplication\KendoUIApplication.csproj", "{5C59FBCC-0FA2-40DE-9239-BF7A4D975A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDepartment", "WebApiDepartment\WebApiDepartment.csproj", "{8B362483-2CCF-4343-92A2-2E3C958B0B02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{831048C2-D136-4A52-B88B-EEF8A2345007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831048C2-D136-4A52-B88B-EEF8A2345007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831048C2-D136-4A52-B88B-EEF8A2345007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831048C2-D136-4A52-B88B-EEF8A2345007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C59FBCC-0FA2-40DE-9239-BF7A4D975A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C59FBCC-0FA2-40DE-9239-BF7A4D975A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C59FBCC-0FA2-40DE-9239-BF7A4D975A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C59FBCC-0FA2-40DE-9239-BF7A4D975A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B362483-2CCF-4343-92A2-2E3C958B0B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B362483-2CCF-4343-92A2-2E3C958B0B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B362483-2CCF-4343-92A2-2E3C958B0B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B362483-2CCF-4343-92A2-2E3C958B0B02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85716936-19DC-40D9-9B47-2D4C7F14312F}
+	EndGlobalSection
+EndGlobal

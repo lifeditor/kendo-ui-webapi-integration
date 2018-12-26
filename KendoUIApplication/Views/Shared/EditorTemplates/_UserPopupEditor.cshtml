@@ -1,0 +1,24 @@
+﻿@using Kendo.Mvc.UI
+@using System.Collections
+@model KendoUIApplication.Models.User
+
+<div class="editor-label">#</div>
+<div class="editor-field">
+    @(Html.Kendo().TextBoxFor(model => model.Id).Enable(false))
+</div>
+
+<div class="editor-label">Username</div>
+<div class="editor-field">
+    @(Html.Kendo().TextBoxFor(model => model.UserName))
+</div>
+
+<div class="editor-label">Department</div>
+<div class="editor-field">
+    @(Html.Kendo().DropDownListFor(model => model.DepartmentId)
+        .DataValueField("Id")
+        .DataTextField("Title")
+        .BindTo((IEnumerable)ViewData[GlobalVariables.DepartmentViewName])
+    )
+</div>
+
+
