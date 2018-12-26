@@ -8,11 +8,13 @@
 	<script src="@Url.Content("~/Scripts/kendo/2018.3.1017/jszip.min.js")"></script>
 	<script src="@Url.Content("~/Scripts/kendo/2018.3.1017/kendo.all.min.js")"></script>
 	<script src="@Url.Content("~/Scripts/kendo/2018.3.1017/kendo.aspnetmvc.min.js")"></script>
-</head>
-<body>
 	@Scripts.Render("~/bundles/modernizr")
 	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/modernizr")
+	@Scripts.Render("~/bundles/jquery")
+	@RenderSection("scripts", required: false)	
+</head>
+<body>
 	@RenderBody()
-	@RenderSection("scripts", required: false)
 </body>
 </html>
